@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="CodeAtlas UI Automation Test Suite" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Smoke Tests">
+        <classes>
+            <class name="tests.SmokeTests"/>
+        </classes>
+    </test>
+
+    <test name="Repository Analysis Tests">
+        <classes>
+            <class name="tests.RepositoryAnalysisTests"/>
+        </classes>
+    </test>
+
+    <test name="Graph/Architecture Tests">
+        <classes>
+            <class name="tests.GraphTests"/>
+        </classes>
+    </test>
+</suite>
