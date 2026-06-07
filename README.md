@@ -283,7 +283,7 @@ To add new tests:
 4. Ensure all locators are properly validated
 
 ## Author
-GitHub Copilot CLI
+Soumyashri Singha
 
 ## License
 MIT License
